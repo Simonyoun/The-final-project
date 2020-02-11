@@ -1,0 +1,97 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+     position: relative;
+}
+.youdiv{
+	 position: absolute;
+	 top: 30px;
+	 width: 700px;
+	 height: 580px;
+	 left:20%;
+	 box-shadow: 2px 2px 1px 3px  #C0C0C0;
+}
+.youdiv .youdiv1{
+	position: absolute;
+	 width: 350px;
+	 height: 580px;
+}
+.youdiv .youdiv1 img{
+	 width: 350px;
+	 height: 580px;
+}
+.youdiv .youdiv2{
+	position: absolute;
+	left:400px;
+	top: 20px;
+	 width: 200px;
+	 height:40px;
+	 background-color:rgba(0,0,0,.6);
+	 border-radius: 10px;
+	 color: #F4A460;
+     text-align: center;
+     padding: 5px 0;
+     font-size: 16px;
+     line-height: 40px;
+}
+.youdiv .youdiv2::after{
+      content: "";
+      position: absolute;
+      left:-42px;
+      top: 5px;
+      border-width: 20px;
+      border-style: solid;
+      border-color: transparent rgba(0,0,0,.6) transparent transparent;
+}
+
+.youdiv .youdiv3{
+	position: absolute;
+	left:450px;
+	top: 190px;
+	 width: 200px;
+	 height:40px;
+	 background-color:#F4A460;
+	 border-radius: 10px;
+	 color:  aliceblue;
+     text-align: center;
+     padding: 5px 0;
+     font-size: 16px;
+     line-height: 40px;
+      display: none;
+}
+.youdiv .youdiv3::after{
+      content: "";
+      position: absolute;
+      left:-42px;
+      top: 5px;
+      border-width: 20px;
+      border-style: solid;
+      border-color: transparent #F4A460 transparent transparent;
+}
+.youdiv .youdiv4{
+	position: absolute;
+	left:380px;
+	top: 370px;
+	 width: 200px;
+	 height:40px;
+	 background-color: aquamarine;
+	 border-radius: 10px;
+	 color: #000000;
+     text-align: center;
+     padding: 5px 0;
+     font-size: 16px;
+     line-height: 40px;
+     display: none;
+}
+.youdiv .youdiv4::after{
+      content: "";
+      position: absolute;
+      left:-42px;
+      top: 5px;
+      border-width: 20px;
+      border-style: solid;
+      border-color: transparent aquamarine transparent transparent;
+}
+

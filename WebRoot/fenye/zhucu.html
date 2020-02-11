@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>注册</title>
+		<link rel="stylesheet" href="../css/zhuce.css" />
+	</head>
+	<body>
+			<script type="text/javascript">
+	function fko() {
+	   var name1= document.getElementById("zhnghau").value;
+	   var mima1 = document.getElementById("mima").value;
+	   var ludeangE =document.getElementById("mimaB").value;
+	   if(name1==""){
+	  	   alert("账号为空");
+	  	   return false;
+	   }
+	   if(mima1==""){
+	  	   alert("密码为空");
+	  	   return false; 
+	   }
+	   if(ludeangE==""){
+	  	   alert("确认密码为空");
+	  	   return false; 
+	   }
+	   	   return true;
+	   } 
+	   function rt(){
+	   	   window.location.href="../index.jsp";
+	   }
+		</script>
+		  <div class="zhu">
+		  	   <div class="zhucediv1">用户注册</div>
+		  	   <form action="zhu" method="post">
+		  	  
+		  	   <div class="zhucediv2">
+		  	           账号:<input type="text"  id="zhnghau" name="name"  />
+		  	   </div>
+		  	   <div class="zhucediv3">
+		  	   	密码:<input type="text" id="mima"  name="mimab" />
+		  	   </div>
+		  	   <div class="zhucediv4">
+		  	        确认密码:<input type="text" id="mimaB" name="mima"/>
+		  	   </div>
+		  	   <div class="zhucediv5">
+		  	   <input type="submit" value="注册" onclick="return fko()" />
+		  	   </div>
+		  	    </form>
+		  	   <div class="zhucediv6" onclick="rt()">
+		  	   	登录
+		  	   </div>
+		  	    <div class="sd">
+		  	    	  <div class="sd-1" style="text-align: center; font-size: 20px; color: 000000FF;"></div>
+		  	    	  <div class="sd-2"></div>
+		  	    	  <div class="sd-3"></div>
+		  	    </div>
+		  </div>
+		 
+	</body>
+</html>

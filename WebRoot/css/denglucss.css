@@ -1,0 +1,399 @@
+.deng{
+	 width: 630px;
+	 height: 600px;
+	 margin: 0px auto;
+	 position: relative;
+}
+.ludeangA{
+	width: 460px;
+	height: 540px;
+	background: url(../img/zzpic15795.jpg) no-repeat;
+	background-size: 460px 540px;
+	position: absolute;
+	top: 20px;
+	z-index: 2;
+}
+.ludeangA div:first-child{
+	  width: 460px;
+	  height: 100px;
+}
+.ludeangA div:last-child{
+	  width: 460px;
+	  height: 440px;
+	  
+	  
+}
+.ludeangA div:last-child form .formdiv1{
+	   width: 450px;
+	   height: 60px;
+	   border: 2px solid  #F0F8FF;
+	   position: relative;
+	   margin: 20px auto;
+}
+.ludeangA div:last-child form .formdiv1:hover{
+        border-color: rgba(0,0,0,.4);
+}
+.ludeangA div:last-child form .formdiv1 img{
+	   position: absolute;
+	   top: 5px;
+}
+.ludeangA div:last-child form .formdiv1 input{
+	   width: 350px;
+	   height: 40px;
+	   left: 60px;
+	   top: 7px;
+	   position: absolute;
+	   padding-left: 10px;
+	   border: none;
+	   background: none;
+	   font-size: 24px;
+	   color: #F0F8FF;
+}
+.ludeangA div:last-child form .formdiv2{
+	   width: 450px;
+	   height: 60px;
+	   border: 2px solid  #F0F8FF;
+	   position: relative;
+	   margin: 20px auto;
+}
+.ludeangA div:last-child form .formdiv2:hover{
+        border-color: rgba(0,0,0,.4);
+}
+.ludeangA div:last-child form .formdiv2 img{
+	   position: absolute;
+	   top: 5px;
+}
+.ludeangA div:last-child form .formdiv2 input{
+	   width: 350px;
+	   height: 40px;
+	   left: 60px;
+	   top: 7px;
+	   position: absolute;
+	   padding-left: 10px;
+	   border: none;
+	   background: none;
+	   font-size: 24px;
+	   color: #F0F8FF;
+}
+.ludeangA div:last-child form .formdiv3{
+	   width: 450px;
+	   height: 60px;
+	   border: 2px solid cornflowerblue ;
+	   position: relative;
+	   margin: 20px auto;
+}
+.ludeangA div:last-child form .formdiv3:hover{
+      border: rgba(0,0,0,.6);
+}
+.ludeangA div:last-child form .formdiv3 input{
+	   width: 450px;
+	   height: 60px;
+       border: none;
+       background-color: rgba(0,0,0,.5);
+       color: aliceblue;
+       font-size: 24px;
+}
+.ludeangA div:last-child form .formdiv3 input:hover{
+       color:darksalmon;
+       font-size: 28px;
+}
+.ludeangA div:last-child form .formdiv4{
+	   width: 450px;
+	   height: 60px;
+	   border: 2px solid sandybrown;
+	   position: relative;
+	   margin: 20px auto;
+}
+.ludeangA div:last-child form .formdiv4:hover{
+      border: rgba(0,0,0,.6);
+}
+.ludeangA div:last-child form .formdiv4 a{
+	  text-decoration: none;
+}
+.ludeangA div:last-child form .formdiv4 a div{
+	   width: 450px;
+	   height: 60px;
+	   background-color:rgba(0,0,0,.5);
+	   text-align: center;
+	   line-height: 60px;
+	   font-size: 24px;
+	   color: #F0F8FF;
+}
+.ludeangA div:last-child form .formdiv4 a div:hover{
+	     color:#6495ED;
+         font-size: 28px;
+}
+.ludeangB{
+	width: 490px;
+	height: 530px;
+	position: absolute;
+	top: 40px;
+	z-index: 1;
+	background: url(../img/zzpic17975.jpg) no-repeat;
+	background-size: 490px 530px;
+}
+
+
+
+
+.ludeangB div:first-child{
+	  width: 460px;
+	  height: 100px;
+}
+.ludeangB div:last-child{
+	  width: 460px;
+	  height: 430px;
+	  
+	  
+}
+.ludeangB div:last-child form .formdivB1{
+	   width: 450px;
+	   height: 60px;
+	   border: 2px solid  #F0F8FF;
+	   position: relative;
+	   margin: 20px auto;
+}
+.ludeangB div:last-child form .formdivB1:hover{
+        border-color: rgba(0,0,0,.4);
+}
+.ludeangB div:last-child form .formdivB1 img{
+	   position: absolute;
+	   top: 5px;
+}
+.ludeangB div:last-child form .formdivB1 input{
+	   width: 350px;
+	   height: 40px;
+	   left: 60px;
+	   top: 7px;
+	   position: absolute;
+	   padding-left: 10px;
+	   border: none;
+	   background: none;
+	   font-size: 24px;
+	   color: #F0F8FF;
+}
+.ludeangB div:last-child form .formdivB2{
+	   width: 450px;
+	   height: 60px;
+	   border: 2px solid  #F0F8FF;
+	   position: relative;
+	   margin: 20px auto;
+}
+.ludeangB div:last-child form .formdivB2:hover{
+        border-color: rgba(0,0,0,.4);
+}
+.ludeangB div:last-child form .formdivB2 img{
+	   position: absolute;
+	   top: 5px;
+}
+.ludeangB div:last-child form .formdivB2 input{
+	   width: 350px;
+	   height: 40px;
+	   left: 60px;
+	   top: 7px;
+	   position: absolute;
+	   padding-left: 10px;
+	   border: none;
+	   background: none;
+	   font-size: 24px;
+	   color: #F0F8FF;
+}
+.ludeangB div:last-child form .formdivB3{
+	   width: 450px;
+	   height: 60px;
+	   border: 2px solid cornflowerblue ;
+	   position: relative;
+	   margin: 20px auto;
+}
+.ludeangB div:last-child form .formdivB3:hover{
+      border: rgba(0,0,0,.6);
+}
+.ludeangB div:last-child form .formdivB3 input{
+	   width: 450px;
+	   height: 60px;
+       border: none;
+       background-color: rgba(0,0,0,.5);
+       color: aliceblue;
+       font-size: 24px;
+}
+.ludeangB div:last-child form .formdivB3 input:hover{
+       color:darksalmon;
+       font-size: 28px;
+}
+.ludeangB div:last-child form .formdivB4{
+	   width: 450px;
+	   height: 60px;
+	   border: 2px solid sandybrown;
+	   position: relative;
+	   margin: 20px auto;
+}
+.ludeangB div:last-child form .formdivB4:hover{
+      border: rgba(0,0,0,.6);
+}
+.ludeangB div:last-child form .formdivB4 a{
+	  text-decoration: none;
+}
+.ludeangB div:last-child form .formdivB4 a div{
+	   width: 450px;
+	   height: 60px;
+	   background-color:rgba(0,0,0,.5);
+	   text-align: center;
+	   line-height: 60px;
+	   font-size: 24px;
+	   color: #F0F8FF;
+}
+.ludeangB div:last-child form .formdivB4 a div:hover{
+	     color:#6495ED;
+         font-size: 28px;
+}
+.ludeangC{
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        opacity: 0.6;
+        filter: alph(opacity=60);
+}
+.ludeangC img:hover{
+        opacity: 0.6;
+        filter: alph(opacity=60);
+}
+.ludeangD{
+        position: absolute;
+        right: 10px;
+        top: 60px;
+        width: 120px;
+        height: 40px;
+        background-color:coral;
+        z-index: 10;
+        border-radius: 5px;
+        line-height: 40px;
+        color: #F0F8FF;
+        font-family: "仿宋";
+        text-align: center;
+        
+}
+.ludeangD::after{
+      content: "";
+      position: absolute;
+      left:-22px;
+      top: 10px;
+      border-width: 10px;
+      border-style: solid;
+      border-color: transparent coral transparent transparent;
+}
+.ludeangD:hover{
+        opacity: 0.5;
+        filter: alph(opacity=50);
+}
+.ludeangE{
+        position: absolute;
+        right: 10px;
+        top: 110px;
+        width: 120px;
+        height: 40px;
+        background-color: #6495ED;
+        z-index: 10;
+        border-radius: 5px;
+        line-height: 40px;
+        color: #F0F8FF;
+        font-family: "仿宋";
+        text-align: center;
+        display: none;
+}
+.ludeangE:hover{
+        opacity: 0.5;
+        filter: alph(opacity=50);
+}
+.ludeangE::after{
+      content: "";
+      position: absolute;
+      left:-22px;
+      top: 10px;
+      border-width: 10px;
+      border-style: solid;
+      border-color: transparent #6495ED transparent transparent;
+}
+.ludeangF{
+        position: absolute;
+        right: 10px;
+        top: 160px;
+        width: 120px;
+        height: 40px;
+        background-color: cadetblue;
+        z-index: 10;
+        border-radius: 5px;
+        line-height: 40px;
+        color: #F0F8FF;
+        font-family: "仿宋";
+        text-align: center;
+        display: none;
+}
+.ludeangF:hover{
+        opacity: 0.5;
+        filter: alph(opacity=50);
+}
+.ludeangF::after{
+      content: "";
+      position: absolute;
+      left:-22px;
+      top: 10px;
+      border-width: 10px;
+      border-style: solid;
+      border-color: transparent cadetblue transparent transparent;
+}
+.ludeangG{
+        position: absolute;
+        right: 10px;
+        top: 300px;
+        width: 120px;
+        height: 40px;
+        background-color: gold;
+        z-index: 10;
+        border-radius: 5px;
+        line-height: 40px;
+        color: #F0F8FF;
+        font-family: "仿宋";
+        text-align: center;
+        display: none;
+}
+.ludeangG:hover{
+        opacity: 0.5;
+        filter: alph(opacity=50);
+}
+.ludeangG::after{
+      content: "";
+      position: absolute;
+      left:-22px;
+      top: 10px;
+      border-width: 10px;
+      border-style: solid;
+      border-color: transparent gold transparent transparent;
+}
+.ludeangH{
+        position: absolute;
+        right: 10px;
+        top: 350px;
+        width: 120px;
+        height: 40px;
+        background-color: firebrick;
+        z-index: 10;
+        border-radius: 5px;
+        line-height: 40px;
+        color: #F0F8FF;
+        font-family: "仿宋";
+        text-align: center;
+        display: none;
+}
+.ludeangH:hover{
+        opacity: 0.5;
+        filter: alph(opacity=50);
+}
+.ludeangH::after{
+      content: "";
+      position: absolute;
+      left:-22px;
+      top: 10px;
+      border-width: 10px;
+      border-style: solid;
+      border-color: transparent firebrick transparent transparent;
+}

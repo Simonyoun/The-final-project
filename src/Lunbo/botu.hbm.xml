@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+                            "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                            "http://hibernate.sourceforge.net/dtd/hibernate-mapping-3.0.dtd" >
+ 
+<hibernate-mapping>
+    <class name="Lunbo.BoTu" table="neip">
+        <id name="ID" column="ID" type="int">
+            <generator class="native"/>
+        </id>
+        <property name="biaoti" column="biaoti" type="string">
+        </property>
+         <property name="neirong" column="neirong" type="string">
+        </property>
+    </class>
+</hibernate-mapping>

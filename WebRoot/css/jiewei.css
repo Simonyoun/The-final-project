@@ -1,0 +1,21 @@
+.jiewei div:first-child{
+	 margin-left: 40px;
+	 font-family: "新宋体";
+	 color: #F0F8FF;
+}
+.jiewei div:first-child h1{
+	  margin-bottom: 40px;
+	  padding-top: 30px;
+}
+.jiewei div:first-child ul{
+    list-style: none;
+    opacity: 0.6;
+    filter: alph(opacity=60);
+    padding-left: 20px;
+}
+.jiewei div:first-child ul:first-child{
+	  margin-top: 50px;
+}
+.jiewei div:first-child ul:last-child{
+	  margin-top: 20px;
+}

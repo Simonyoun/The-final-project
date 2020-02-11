@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+   <constant name="struts.convention.classes.reload" value="true"/>
+    <constant name="struts.configuration.xml.reload" value="true"/>
+   <constant name="struts.devMode" value="true"/> 
+      <package name="Dom" extends="struts-default">
+   	<action name="Tian" class="diyige.Tianjia">
+   	   <result name="success">/fenye/HouDuan.jsp</result>
+   	   <result name="error">/index.jsp</result>
+   	</action>
+   </package>
+     <package name="Domm" extends="struts-default">
+   	<action name="YongHu" class="diyige.YongHu">
+   	   <result name="success">/index.jsp</result>
+   	   <result name="error">/index.jsp</result>
+   	</action>
+   </package>
+        <package name="zhuce" extends="struts-default">
+   	<action name="zhu" class="diyige.zhuce">
+   	   <result name="success">/index.jsp</result>
+   	   <result name="error">/fenye/zhucu.html</result>
+   	</action>
+   </package>
+           <package name="imgop" extends="struts-default">
+   	<action name="img" class="lou.LunBo">
+   	   <result name="success">/fenye/Hou/shujiu/LunBo.jsp</result>
+   	</action>
+   </package>
+   <package name="Lu" extends="struts-default">
+   	<action name="NeiRong" class="Lunbo.NeiRong">
+   	   <result name="success">/fenye/Hou/shujiu/NeiRong.jsp</result>
+   	</action>
+   </package>
+      <package name="Sh" extends="struts-default">
+   	<action name="ShanChu" class="Lunbo.ShanChu">
+   	   <result name="success">/fenye/Hou/shujiu/NeiRong.jsp</result>
+   	</action>
+   </package>
+    <package name="Ti" extends="struts-default">
+   	<action name="Tiannnn" class="Lunbo.Tian">
+   	   <result name="success">/fenye/Hou/shujiu/NeiRong.jsp</result>
+   	</action>
+   </package>
+   
+       <package name="struts2" namespace="/" extends="struts-default">
+   	<action name="Shang" class="lou.Shang">
+   	   <result name="success">/fenye/Hou/shujiu/MyJsp.jsp</result>
+   	</action>
+   </package>
+</struts>

@@ -1,0 +1,50 @@
+.daohangdiv{
+	 width: 1200px;
+	 height: 70px;
+	 margin: 1px auto;
+	 position: relative;
+}
+
+.daohangdiv ul:first-child{
+	 list-style: none;
+	 color: aliceblue;
+	 font-size: 26px;
+	 line-height: 60px;
+	 position: absolute;
+	 left: 10%;
+}
+.daohangdiv ul:first-child li{
+	 float: left;
+     padding: 5px 10px;
+}
+.daohangUl-1 a{
+	border-bottom: 1px solid aqua ;
+}
+.daohangUl-3{
+	  margin: 0px 20px;
+	  font-size: 36px;
+}
+.daohangdiv ul:first-child li a{
+	 color: #F0F8FF;
+	 text-decoration: none;
+	 display: block;
+	 
+}
+.daohangdiv ul:first-child li a:hover{
+	 border-bottom: 1px solid aqua ;
+}
+.daohangdiv ul:last-child{
+	 list-style: none;
+	 position: absolute;
+	 left: 85%;
+	 top: 10px;
+}
+.daohangdiv ul:last-child li{
+	  float: left;
+	  opacity: 0.6;
+	  filter: alph(opacity=60);
+}
+.daohangdiv ul:last-child li:hover{
+	  opacity: 1;
+	  filter: alph(opacity=100);
+}

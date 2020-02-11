@@ -1,0 +1,41 @@
+body{
+     background: url(../img/zzpic15459.jpg) no-repeat;
+     background-size: 100% 100%;
+   
+}
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: "宋体";
+	}
+.daohang{
+	 width: 100%;
+	 height: 80px;
+	 background-color:black;
+}
+.luobotu,.neirong{
+	 margin: 0px auto; 
+	 margin-top: 10px;
+	 width: 1200px;
+	 background-color: rgba(0,0,0,.6);
+}
+.luobotu{
+	 height: 500px;
+	 position: relative;
+}
+.neirong{
+	height: 600px;
+	position: relative;
+}
+.jiewei{
+	width: 1200px;
+	height: 300px;
+	margin: 10px auto;
+	background-color: rgba(0,0,0,.9);
+}
+.denglu{
+	 margin: 20px auto;
+	 width: 100%;
+	 height: 600px;
+	 display: none;
+}

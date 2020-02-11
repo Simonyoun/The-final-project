@@ -1,0 +1,36 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.bo{
+      width: 100%;
+      height: 120px;
+      color: #F0F8FF;
+      background-color: #000000;
+      text-align: center;
+      font-size: 16px;
+      font-family: "宋体";
+      line-height: 90px;
+      opacity: 0.8;
+}
+.bo1,.bo2,.bo3,.bo4{
+      width: 90%;
+      height: 100px;
+      color: #F0F8FF;
+      background-color: rgba(0,0,0,.5);
+      text-align: center;
+      font-size: 30px;
+      font-family: "宋体";
+      line-height: 85px;
+      margin: 10px auto;
+}
+.bo1 a,.bo2 a,.bo3 a,.bo4 a{
+	 text-decoration: none;
+	 color: #F0F8FF;
+}
+.bo1 a:hover,.bo2 a:hover,.bo3 a:hover,.bo4 a:hover{
+	 color:#F4A460;
+}
+.bo1:hover,.bo2:hover,.bo3:hover,.bo4:hover{
+	 background-color: rgba(0,0,0,.9);
+}
